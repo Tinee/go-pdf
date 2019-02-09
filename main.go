@@ -19,7 +19,7 @@ func main() {
 	pdf.SetFont("arial", "B", 30)
 	_, lineheight := pdf.GetFontSize()
 	pdf.SetTextColor(255, 0, 0)
-	pdf.Text(0, lineheight, "Hello, hey")
+	pdf.Text(0, lineheight, "Hello, Test")
 	pdf.SetFont("times", "", 18)
 	pdf.SetTextColor(100, 100, 100)
 	_, lineheight = pdf.GetFontSize()
